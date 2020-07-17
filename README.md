@@ -1066,6 +1066,7 @@ import re
 '\d' == '[0-9]'          # Digit
 '\s' == '[ \t\n\r\f\v]'  # Whitespace
 '\w' == '[a-zA-Z0-9_]'   # Alphanumeric
+'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)\w{3,14}$' #upper case letters, numbers & lowercase letters together
 ```
 
 
